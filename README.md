@@ -1,2 +1,2 @@
-# linkedin_top_profile
-Change the cover image on linkedin account with the daily wikimedia picture of the day
+# Linkedin Top Profile Picture
+Change the cover image on linkedin account with the wikimedia picture of the day
