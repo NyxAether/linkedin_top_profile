@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "linkedin-top-profile"
+version = "0.1.0"
+description = ""
+authors = ["NyxAether <contact.nyxhemera@gmail.com>"]
+readme = "README.md"
+packages = [{include = "linkedin_top_profile"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flake8 = "^7.0.0"
+pylint = "^3.0.3"
+isort = "^5.13.2"
+mypy = "^1.8.0"
+black = "^24.1.1"
+pytest = "^8.0.0"
+pydantic = "^2.6.0"
+typer = {extras = ["all"], version = "^0.9.0"}
+requests = "^2.31.0"
+types-requests = "^2.31.0.20240125"
+pyyaml = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
